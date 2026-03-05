@@ -1,0 +1,17 @@
+print(Bonjour)
+nom = int(input(" Quel est ton nom : "))
+print(nom)
+
+a = int(input("Nombre 1 : "))
+b = int(input("Nombre 2 : "))
+print(a+b)
+
+x = float(input("Nombre 1 : "))
+y = float(input("Nombre 2 : "))
+moyenne = x+y/2
+print("La moyenne est de :", moyenne)
+
+
+cfp = float(input("Montant en cfp : "))
+euros = cfp/119.3
+print("Le montant de CFP est de :", round(euros,2))
